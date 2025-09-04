@@ -1,8 +1,24 @@
 # Ignore all generated frames from the GUI analysis
-modified_images/
+
+# OS-specific files
+.DS_Store
+
+# Python virtual environment and cache
 venv/
-cosine_epoch30.pth
-crystal_tracking_output.mp4
-video_4.mp4
-video_4_tracked.mp4
 __pycache__/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Ignore generated output frames
+modified_images/
+
+# Ignore model files (handled by Git LFS or manual download)
+*.pth
+*.pt
+*.mp4
