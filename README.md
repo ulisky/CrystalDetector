@@ -1,6 +1,5 @@
 # Crystal Detector and Real-Time Tracker
 
-*Optional: Add a screenshot of your GUI in action here. You can drag and drop an image onto the GitHub README editor.*
 This project is a complete computer vision pipeline for detecting, tracking, and analyzing the behavior of crystals in video streams. It features a user-friendly graphical interface (GUI) built with Tkinter for easy operation.
 
 The core of the system uses a YOLOv8 model for initial object detection, a DeepSort tracker for maintaining object identities across frames, and a custom-trained ResNet50 embedding network to robustly re-identify crystals even after rotation or temporary occlusion.
