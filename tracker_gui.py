@@ -16,8 +16,6 @@ import re # Needed for sorting frames correctly
 
 # This import is from your original script. Make sure the .py file is in the same directory.
 from train_resnet50_cosine import EmbeddingNet
-#Hello Aiden
-
 
 class CrystalTrackerApp:
     def __init__(self, master):
