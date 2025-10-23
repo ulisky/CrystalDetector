@@ -5,7 +5,13 @@
 
 # Python virtual environment and cache
 venv/
+.venv/
 __pycache__/
+*.pyc
+*.pyo
+
+# UV specific
+uv.lock
 
 # OS-specific files
 .DS_Store
